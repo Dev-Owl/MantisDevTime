@@ -1,5 +1,5 @@
 <?php
 
-$s_plugin_TaskProgress_title                 = 'Mantis Dev Time';
-$s_plugin_TaskProgress_description           = 'Simple page that shows assigned development time by developer in Mantis Bugtracker
+$s_plugin_MantisDevTime_title                 = 'Mantis Dev Time';
+$s_plugin_MantisDevTime_description           = 'Simple page that shows assigned development time by developer in Mantis Bugtracker
 ';

@@ -2,7 +2,7 @@
 if( !defined( 'MANTIS_VERSION' ) ) { exit(); }
 
 
-class TaskProgressPlugin extends MantisPlugin {
+class MantisDevTimePlugin extends MantisPlugin {
 
     # Plugin definition
 	function register() {
@@ -29,10 +29,21 @@ class TaskProgressPlugin extends MantisPlugin {
 
     # Plugin hooks
     function hooks() {
-       /* return array(
-            'EVENT_VIEW_BUG_EXTRA'           => 'addProgressBarToPage',
-        );*/
-    }
+        return array(
+            'EVENT_MENU_MAIN'           => 'addMenuItem',
+        );
+	}
+	
+	function addMenuItem(){
+		return array(
+			array(
+				'title' => 'Dev Time',
+				'access_level' => DEVELOPER,
+				'url' => plugin_page( 'devtime.php' ) ,
+				'icon' => 'fa-random'));
+			
+	}
+
 }
 
 ?>
