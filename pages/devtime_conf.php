@@ -6,6 +6,6 @@
     $devHourByVersion = 160; //Total hours by dev by version
     $devCommitTimeInPerenct = 40; //Time you want to commi
     $devTimeByVersion = ceil( $devHourByVersion * ($devCommitTimeInPerenct / 100)); //Calculate total time by dev and version according to the rules
-    $projectPriority = [1 => 50,4 => 10, 5 => 10,9 => 10, 7 => 20 ];
+    $projectPriority = [1 => 50,4 => 10, 5 => 10,9 => 10, 7 => 20 ]; //Priority by project
     # --------Settings ------- #
 ?>
