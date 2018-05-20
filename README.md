@@ -11,6 +11,8 @@ The installation is the same as for all Mantis plugins:
 2. Copy it into your Mantis installation plugin folder *(make sure the folder is called MantisDevTime)*
 3. Login to Mantis as an Admin, open the Configuration -> Plugin section and click on install
 
+![alt text](https://raw.githubusercontent.com/Dev-Owl/MantisDevTime/master/devtime_example.jpg "Plugin in mantis")
+
 ## Configuration
 
 All the plugin configuration can be found in the file pages/devtime_conf.php, the following settings are available:
